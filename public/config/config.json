@@ -1,0 +1,19 @@
+{
+  "CONTRACT_ADDRESS": "0x63665bC61A68250EA13384f4ffEE7cC9869FfAb9",
+  "SCAN_LINK": "https://etherscan.io/address/0x63665bc61a68250ea13384f4ffee7cc9869ffab9",
+  "NETWORK": {
+    "NAME": "Ethereum",
+    "SYMBOL": "Eth",
+    "ID": 1
+  },
+  "NFT_NAME": "Masked Punk",
+  "SYMBOL": "Mpunks",
+  "MAX_SUPPLY": 10000,
+  "WEI_COST": 25000000000000000,
+  "DISPLAY_COST": 0.025,
+  "GAS_LIMIT":167000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/maskedpunksnft",
+  "WEBSITE_LINK": "https://maskedpunks.club/",
+  "SHOW_BACKGROUND": true
+}
