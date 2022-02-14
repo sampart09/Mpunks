@@ -198,9 +198,9 @@ function App() {
   return (
     <s.Screen>
       <s.Container
-        flex={2}
+        flex={1}
         ai={"center"}
-        style={{ padding: 8, backgroundColor: "var(--primary)" }}
+        style={{ padding: 24, backgroundColor: "var(--primary)" }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
       >
         <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
