@@ -210,7 +210,11 @@ function App() {
             <StyledImg alt={"example"} src={"/config/images/example.gif"} />
           </s.Container>
           <s.SpacerLarge />
-            <s.Container>
+            <s.Container
+            flex={2}
+            jc={"center"}
+            ai={"center"}
+          >
             <s.TextTitle
               style={{
                 textAlign: "center",
