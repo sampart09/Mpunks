@@ -198,13 +198,13 @@ function App() {
   return (
     <s.Screen>
       <s.Container
-        flex={1}
+        
         ai={"center"}
-        style={{ padding: 24, backgroundColor: "var(--primary)" }}
+        style={{ padding: 2, backgroundColor: "var(--primary)" }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
       >
         <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
-        <ResponsiveWrapper flex={1} style={{ padding: 200 }} test>
+        <ResponsiveWrapper flex={1} style={{ padding: 12 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
             <StyledImg alt={"example"} src={"/config/images/example.gif"} />
           </s.Container>
