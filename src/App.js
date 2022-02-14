@@ -384,7 +384,6 @@ function App() {
               </>
             )}
             <s.SpacerMedium />
-          </s.Container>
           <s.SpacerLarge />
           <s.Container flex={1} jc={"center"} ai={"center"}>
             <StyledImg
