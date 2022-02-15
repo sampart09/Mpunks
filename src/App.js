@@ -201,7 +201,7 @@ function App() {
         
         ai={"center"}
         style={{ padding: 2, backgroundColor: "var(--primary)" }}
-        image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png"}
+        image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png": null}
       >
         <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
         <ResponsiveWrapper flex={10} style={{ padding: 0 }} test>
