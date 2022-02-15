@@ -201,10 +201,10 @@ function App() {
         
         ai={"center"}
         style={{ padding: 2, backgroundColor: "var(--primary)" }}
-        image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
+        image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png"}
       >
         <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
-        <ResponsiveWrapper flex={3} style={{ padding: 0 }} test>
+        <ResponsiveWrapper flex={10} style={{ padding: 0 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
             <StyledImg alt={"example"} src={"/config/images/example.gif"} />
           </s.Container>
@@ -215,7 +215,7 @@ function App() {
             <s.TextTitle
               style={{
                 textAlign: "center",
-                fontSize: 75,
+                fontSize: 70,
                 fontWeight: "bold",
                 color: "var(--accent-text)",
               }}
