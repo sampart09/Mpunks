@@ -68,7 +68,7 @@ export const ResponsiveWrapper = styled.div`
 export const StyledLogo = styled.img`
   width: 600px;
   @media (min-width: 367px) {
-    width: 1200px;
+    width: 600px;
   }
   transition: width 0.5s;
   transition: height 0.5s;
@@ -84,7 +84,7 @@ export const StyledImg = styled.img`
     width: 250px;
   }
   @media (min-width: 1000px) {
-    width: 300px;
+    width: 400px;
   }
   transition: width 0.5s;
 `;
@@ -215,7 +215,7 @@ function App() {
             <s.TextTitle
               style={{
                 textAlign: "center",
-                fontSize: 70,
+                fontSize: 75,
                 fontWeight: "bold",
                 color: "var(--accent-text)",
               }}
