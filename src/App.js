@@ -200,6 +200,7 @@ function App() {
       <s.Container
         
         ai={"center"}
+        flex={1}
         style={{ padding: 2, backgroundColor: "var(--primary)" }}
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png": null}
       >
