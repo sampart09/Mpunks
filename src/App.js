@@ -80,11 +80,11 @@ export const StyledImg = styled.img`
   background-color: var(--accent);
   border-radius: 100%;
   width: 200px;
-  @media (min-width: 900px) {
+  @media (min-width: 700px) {
     width: 250px;
   }
-  @media (min-width: 1000px) {
-    width: 400px;
+  @media (min-width: 8000px) {
+    width: 200px;
   }
   transition: width 0.5s;
 `;
